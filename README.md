@@ -25,7 +25,7 @@ Installation:
 
 1.Clone the Repository
 
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/AbulHossain-Adnan/laravel-salat-notifier.git
 
 
 2.cd your-repository
