@@ -117,7 +117,7 @@ Troubleshooting
 
 To create a symbolic link from the package directory to your fresh Laravel project, you can use the following command:
 
-       ln -s ~/Desktop/project/laravel-salat-notifier/package/ ~/Desktop/projects/fresh-laravel/package
+    ln -s ~/Desktop/projects/laravel-salat-notifier/package/ ~/Desktop/projects/fresh-laravel/package
 
 3.To Add repository to your fresh laravel project run this command:
 
