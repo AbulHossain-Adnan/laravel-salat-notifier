@@ -138,6 +138,9 @@ env
 
        SLACK_WEBHOOK=https://hooks.slack.com/services/your/webhook/url    
 
+6. Set timezone on config/app.php
+
+       'timezone' => 'Asia/Dhaka',
 
 6>Now Run the scheduler manually for testing:
 
@@ -146,7 +149,7 @@ bash
       php artisan schedule:work
 
 
-9.For Salat time seeder  
+7.For Salat time seeder  
 
       php artisan db:seed --class=welabs\\SalatNotifier\\seeders\\SalatTimeSeeder
 
