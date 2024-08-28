@@ -5743,7 +5743,7 @@
             "version": "1.0.0",
             "dist": {
                 "type": "path",
-                "url": "./packages/welabs/SalatNotifier",
+                "url": "./package/welabs/SalatNotifier",
                 "reference": "c922e8944914b5d6225d4ede939b5a64e9b09fdc"
             },
             "require": {
