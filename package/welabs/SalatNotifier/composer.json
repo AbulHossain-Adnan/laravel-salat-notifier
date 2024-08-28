@@ -1,0 +1,33 @@
+{
+    "name": "welabs/salat-notifier",
+    "description": "Package for salat times notifier",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Welabs\\Salatnotifier\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Welabs\\SalatNotifier\\Console\\Commands\\": "src/Console/Commands/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abul Hossain Adnan"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "welabs\\SalatNotifier\\SalatNotifierServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/slack-notification-channel": "^2.0"
+    },
+    "version": "1.0.0"
+}
