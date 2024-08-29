@@ -11,7 +11,7 @@ class SalatTimeManager implements SalatTimeInterface
 {
     public function getAllSalatTimes()
     {
-        return SalatTime::select('id','salat','time')->get();
+        return SalatTime::select('id','salat','time','notification_send')->get();
     }
 
     public function getSalatTimeById($id)

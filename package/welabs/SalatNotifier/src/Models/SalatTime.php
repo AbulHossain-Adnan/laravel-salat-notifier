@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class SalatTime extends Model
 {
     use HasFactory;
-    protected $fillable = ['salat','time','notification_send'];
+    protected $fillable = ['salat','time','notification_sent'];
     protected $table = 'salat_times';
 }
